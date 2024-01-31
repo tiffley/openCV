@@ -1,3 +1,4 @@
+-- combine all data and drop data which can identify individual
 SELECT
  organization_name
  , organization_level
