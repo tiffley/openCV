@@ -1,6 +1,7 @@
 SELECT 
   SUBSTRING_INDEX(SUBSTRING_INDEX(target_col, ',', numbers.n), ',', -1) AS flattened_value
   , name
+  , COUNT(*) OVER (PARTITION BY name) as selected_answer_count
 FROM
   combined_table
 JOIN (
