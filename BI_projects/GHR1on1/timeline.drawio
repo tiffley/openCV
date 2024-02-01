@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T09:28:40.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="K7gJ9KiuacsdQtZEJhWw" version="23.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-01T09:37:09.472Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7er2XgBosWGdDHbB0exd" version="23.0.2" type="github" pages="4">
   <diagram name="Page-1" id="wM2ruMwiTi6jw3L_C0DY">
     <mxGraphModel dx="1173" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,6 +57,82 @@
         </mxCell>
         <mxCell id="3zs6EOJBDwkyLVgSbGFL-5" value="Delivery" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="PQmyZXCNwtXiib4dnRKe-5">
           <mxGeometry x="960" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="32rU_eJIUljWjW3HlHDN" name="Page-4">
+    <mxGraphModel dx="1173" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-1" value="First phase&amp;nbsp;STG" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="770" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-2" value="Consult&lt;br&gt;check data&lt;br&gt;&lt;br&gt;1 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="10" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-3" value="Refactor survey&lt;br&gt;check test data&lt;br&gt;&lt;br&gt;1 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="110" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-4" value="Tech requirement&lt;br&gt;ETL&lt;br&gt;&lt;br&gt;1 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="230" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-5" value="Create graphs&lt;br&gt;deliver solution&lt;br&gt;&lt;br&gt;0.5 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="330" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-6" value="1 month" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.56;dx=22;notch=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="20" y="30" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-7" value="investigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="20" y="80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-8" value="implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="240" y="80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-9" value="Feedback&lt;br&gt;list issues&lt;br&gt;&lt;br&gt;1 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="440" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-10" value="review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="440" y="80" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-11" value="Update ETL&lt;br&gt;&lt;br&gt;&lt;br&gt;0.5 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="540" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xANwMhJarw8Mj8xAdNSC-12" value="Feedback&lt;br&gt;review prod data&lt;br&gt;&lt;br&gt;0.5 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="xANwMhJarw8Mj8xAdNSC-1">
+          <mxGeometry x="640" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RwdYwmkvjnlqGM63VsPy" name="Page-5">
+    <mxGraphModel dx="1173" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-1" value="First phase PROD" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="460" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-13" value="implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="10" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-14" value="Replace the data&lt;br&gt;stg -&amp;gt; prod&lt;br&gt;&lt;br&gt;0 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="10" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-15" value="0.5 month" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.56;dx=22;notch=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="10" y="30" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-16" value="update ETL&lt;br&gt;&lt;br&gt;&lt;br&gt;1 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="210" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-17" value="review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="120" y="80" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lx1lyy1UepyUxVmQNHKg-18" value="Delivery" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="320" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5kVHkn2PlsfXEzTfeFy-1" value="Feedback&lt;br&gt;list issues&lt;br&gt;&lt;br&gt;1 week" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="lx1lyy1UepyUxVmQNHKg-1">
+          <mxGeometry x="110" y="120" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
